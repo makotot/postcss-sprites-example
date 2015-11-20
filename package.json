@@ -1,0 +1,29 @@
+{
+  "name": "postcss-sprites-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/makotot/postcss-sprites-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/makotot/postcss-sprites-example/issues"
+  },
+  "homepage": "https://github.com/makotot/postcss-sprites-example#readme",
+  "description": "",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-clean": "^0.7.0",
+    "grunt-contrib-copy": "^0.8.2",
+    "grunt-postcss": "^0.7.1",
+    "grunt-sass": "^1.1.0",
+    "jit-grunt": "^0.9.1",
+    "postcss-sprites": "^2.0.2",
+    "time-grunt": "^1.2.2"
+  }
+}
