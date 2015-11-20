@@ -46,8 +46,8 @@ module.exports = function (grunt) {
         sourcemap: true,
         processors: [
           require('postcss-sprites')({
-            stylesheetPath: '<%= path.dist %>/css',
-            spritePath: '<%= path.dist %>/img/sprites.png'
+            stylesheetPath: './dist/css',
+            spritePath: './dist/img/sprites.png'
           })
         ]
       },
